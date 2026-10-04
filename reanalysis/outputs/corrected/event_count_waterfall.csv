@@ -1,0 +1,6 @@
+stage,BTC_triggers,BTC_onsets,ETH_triggers,ETH_onsets,total_onsets
+"0 legacy (left-labelled bins, current-inclusive threshold, 7-day minimum)",423.0,80,388.0,82,162
+1 right-labelled completed bins,423.0,80,388.0,82,162
+2 + threshold from prior decision times only,424.0,81,388.0,82,163
+3 + full 30-day baseline (primary trigger rule),358.0,69,288.0,65,134
+"4 + measurement requirements (reference, window bars, OI coverage)",,69,,65,134

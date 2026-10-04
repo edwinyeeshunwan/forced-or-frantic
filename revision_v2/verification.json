@@ -1,0 +1,176 @@
+{
+  "coverage": [
+    {
+      "asset": "BTC",
+      "series": "liquidations",
+      "rows": 479170,
+      "first": "2025-08-01 00:09:53.029000+00:00",
+      "last": "2025-12-31 20:40:50.936000+00:00",
+      "days_with_rows": 153,
+      "duplicate_timestamps": 450009
+    },
+    {
+      "asset": "BTC",
+      "series": "klines",
+      "rows": 52987,
+      "first": "2025-07-01 00:00:00+00:00",
+      "last": "2025-12-31 23:55:00+00:00",
+      "days_with_rows": 184,
+      "duplicate_timestamps": 0
+    },
+    {
+      "asset": "BTC",
+      "series": "oi",
+      "rows": 264909,
+      "first": "2025-07-01 00:00:00+00:00",
+      "last": "2025-12-31 23:59:00+00:00",
+      "days_with_rows": 184,
+      "duplicate_timestamps": 0
+    },
+    {
+      "asset": "ETH",
+      "series": "liquidations",
+      "rows": 279455,
+      "first": "2025-08-01 00:10:33.467000+00:00",
+      "last": "2025-12-31 20:40:47.082000+00:00",
+      "days_with_rows": 153,
+      "duplicate_timestamps": 258397
+    },
+    {
+      "asset": "ETH",
+      "series": "klines",
+      "rows": 52987,
+      "first": "2025-07-01 00:00:00+00:00",
+      "last": "2025-12-31 23:55:00+00:00",
+      "days_with_rows": 184,
+      "duplicate_timestamps": 0
+    },
+    {
+      "asset": "ETH",
+      "series": "oi",
+      "rows": 264909,
+      "first": "2025-07-01 00:00:00+00:00",
+      "last": "2025-12-31 23:59:00+00:00",
+      "days_with_rows": 184,
+      "duplicate_timestamps": 0
+    }
+  ],
+  "original_table_equals_legacy_rebuild": {
+    "t0": true,
+    "p0": true,
+    "liq_notional": true,
+    "doi_event": true,
+    "klass": true,
+    "peak_disloc": true,
+    "ttr_min": true,
+    "censored": true,
+    "perm_6h": true,
+    "perm_24h": true,
+    "transitory_share": true,
+    "session": true,
+    "venue": true,
+    "symbol": true
+  },
+  "summaries": [
+    {
+      "trigger": 0.99,
+      "class": "churn",
+      "n": 28,
+      "median_peak_logpercent": -1.2560460893623195,
+      "median_reversion_share": 0.8117949267978497,
+      "median_recorded_minutes": 140.0,
+      "censored_percent": 17.857142857142858
+    },
+    {
+      "trigger": 0.99,
+      "class": "deleverage",
+      "n": 38,
+      "median_peak_logpercent": -2.0966373891374515,
+      "median_reversion_share": 0.3480294232529801,
+      "median_recorded_minutes": 505.0,
+      "censored_percent": 42.10526315789473
+    },
+    {
+      "trigger": 0.99,
+      "class": "middle",
+      "n": 96,
+      "median_peak_logpercent": -1.6559499136293434,
+      "median_reversion_share": 0.4987314211424942,
+      "median_recorded_minutes": 192.5,
+      "censored_percent": 32.29166666666667
+    },
+    {
+      "trigger": 0.95,
+      "class": "churn",
+      "n": 125,
+      "median_peak_logpercent": -0.8896575989715587,
+      "median_reversion_share": 0.8854253855641792,
+      "median_recorded_minutes": 90.0,
+      "censored_percent": 13.600000000000001
+    },
+    {
+      "trigger": 0.95,
+      "class": "deleverage",
+      "n": 63,
+      "median_peak_logpercent": -2.0045455435990966,
+      "median_reversion_share": 0.35719975241934876,
+      "median_recorded_minutes": 620.0,
+      "censored_percent": 41.269841269841265
+    },
+    {
+      "trigger": 0.95,
+      "class": "middle",
+      "n": 237,
+      "median_peak_logpercent": -1.1975610970197736,
+      "median_reversion_share": 0.5605511940503201,
+      "median_recorded_minutes": 155.0,
+      "censored_percent": 23.628691983122362
+    }
+  ],
+  "peak_ols_coefficients": [
+    {
+      "trigger": 0.99,
+      "n": 66,
+      "peak_coefficient": 0.005132523540803671
+    },
+    {
+      "trigger": 0.95,
+      "n": 188,
+      "peak_coefficient": 0.005453804556876954
+    }
+  ],
+  "event_window": [
+    "2025-08-10 03:25:00+00:00",
+    "2025-12-31 16:25:00+00:00"
+  ],
+  "not_reproduced": "Legacy p values and supplementary sensitivity tables; no corrected event definition or new confirmatory inference.",
+  "input_sha256": {
+    "data/hyperliquid_BTC_adl.parquet": "a074a94f19e87dd1d7a9d88d324bbdb273b65567cf9210323b035f7730f7c598",
+    "data/hyperliquid_BTC_funding.parquet": "c40e5900a9aff7c892327de40a0e033807562094b3243ba152350fe9b16c6e9b",
+    "data/hyperliquid_BTC_klines.parquet": "1cf6bd9823f449c5eba3d6540ed362c97ab86aeaaa2043a01b3a4aae8a8cebc0",
+    "data/hyperliquid_BTC_liquidations.parquet": "90de84e8ad379710a605c658dae1b1c699521e870515c9a37dce9cbddec1eee4",
+    "data/hyperliquid_BTC_oi.parquet": "2af5f0ab953adb6c7837726344d83a423527b0fe356894476cc676ef07b0097e",
+    "data/hyperliquid_ETH_adl.parquet": "91a8a1e4131231cbb67b2e24e091eabf10253aa12fcaf7843be763d5a239f34f",
+    "data/hyperliquid_ETH_funding.parquet": "48b6042277019d71de7fd5330667ffb84c0b2e9d55482fe003f38a9b62dcd349",
+    "data/hyperliquid_ETH_klines.parquet": "ed53a7076bc98fa78cfdc81fef19d6da9ddf5bce023b16d53dbc0f1b32597458",
+    "data/hyperliquid_ETH_liquidations.parquet": "908d9a982ae3517d3b3be9a94827be8ad15c0da3689c6a49df98ef6a7824905b",
+    "data/hyperliquid_ETH_oi.parquet": "f0bd66cb90e714ee04de9cb27d5f405a42df405728d5721021e081a2aac640a2"
+  },
+  "terminal_horizon_shortfalls": {
+    "2": {},
+    "6": {},
+    "24": {
+      "middle": 1
+    }
+  },
+  "terminal_24h_event_records": [
+    {
+      "t0": "2025-12-31 16:25:00+00:00",
+      "symbol": "BTC",
+      "klass": "middle",
+      "ttr_min": 100.0,
+      "censored": false,
+      "perm_24h": null
+    }
+  ]
+}

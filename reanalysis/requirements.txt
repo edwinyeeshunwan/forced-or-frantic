@@ -1,0 +1,10 @@
+# Core (required)
+numpy>=1.24
+pandas>=2.0
+# Strongly recommended: the standard Parquet engine. If it is missing, the bundled
+# fallback reader (src/parquet_fallback.py) is used automatically; it needs libsnappy
+# (found via ctypes) or falls back to a slower pure-Python snappy decoder.
+pyarrow>=12
+# Optional: figures only
+matplotlib>=3.6
+# Optional: pytest can run tests/ as well as the bundled runner

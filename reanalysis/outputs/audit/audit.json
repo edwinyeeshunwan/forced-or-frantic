@@ -1,0 +1,212 @@
+{
+  "BTC": {
+    "asset": "BTC",
+    "liquidation_columns": [
+      "ts",
+      "coin",
+      "side",
+      "direction",
+      "px",
+      "sz",
+      "is_liquidation",
+      "notional"
+    ],
+    "identifier_columns_retained": [],
+    "side_by_direction": {
+      "buy": {
+        "Close Short": 129010,
+        "Liquidated Cross Short": 42,
+        "Liquidated Isolated Short": 125
+      },
+      "sell": {
+        "Close Long": 346051,
+        "Liquidated Cross Long": 2880,
+        "Liquidated Isolated Long": 1062
+      }
+    },
+    "is_liquidation_values": {
+      "True": 479170
+    },
+    "sell_rows": 349993,
+    "sell_rows_all_close_long": true,
+    "sell_rows_with_matching_buy_row_same_ts_px_sz": 0,
+    "rows": 479170,
+    "unique_timestamps": 29161,
+    "rows_sharing_a_timestamp": 472732,
+    "exact_duplicate_rows_remaining": 0,
+    "index_min": 0,
+    "index_max": 510422,
+    "index_is_time_ordered": true,
+    "implied_pre_dedup_rows_at_least": 510423,
+    "rows_dropped_by_legacy_dedup_at_least": 31253,
+    "dropped_share_at_least": 0.061229607599971,
+    "dropped_rows_on_sell_timestamps_share": 0.709211915656097,
+    "dropped_rows_side_ambiguous_share": 0.03922823408952741,
+    "sell_notional_retained": 7722440934.179796,
+    "sell_notional_reinstated_adjacent_assumption": 425882963.747,
+    "dropped_by_month": {
+      "2025-08": 4960,
+      "2025-09": 3274,
+      "2025-10": 8620,
+      "2025-11": 9336,
+      "2025-12": 5063
+    },
+    "assumed_coverage": [
+      "2025-08-01T00:00:00+00:00",
+      "2026-01-01T00:00:00+00:00"
+    ],
+    "dates_with_rows": 153,
+    "calendar_dates_in_coverage": 153,
+    "share_5min_bins_without_any_liquidation": 0.8843273420479303,
+    "zero_runs_ge_6h": 95,
+    "zero_runs_ge_12h": 14,
+    "longest_zero_run_h": 24.75,
+    "oi_rows": 264909,
+    "oi_first": "2025-07-01T00:00:00+00:00",
+    "oi_last": "2025-12-31T23:59:00+00:00",
+    "oi_grid_points": 264960,
+    "oi_grid_points_missing": 116,
+    "oi_offgrid_rows": 65,
+    "oi_max_gap_min": 21.783333333333335,
+    "oi_columns": [
+      "ts",
+      "oi"
+    ],
+    "klines_rows": 52987,
+    "klines_first": "2025-07-01T00:00:00+00:00",
+    "klines_last": "2025-12-31T23:55:00+00:00",
+    "klines_grid_points": 52992,
+    "klines_grid_points_missing": 5,
+    "klines_offgrid_rows": 0,
+    "klines_max_gap_min": 20.0,
+    "klines_columns": [
+      "ts",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume"
+    ],
+    "funding_rows": 264909,
+    "funding_first": "2025-07-01T00:00:00+00:00",
+    "funding_last": "2025-12-31T23:59:00+00:00",
+    "funding_grid_points": 264960,
+    "funding_grid_points_missing": 116,
+    "funding_offgrid_rows": 65,
+    "funding_max_gap_min": 21.783333333333335,
+    "funding_columns": [
+      "ts",
+      "funding"
+    ],
+    "klines_volume_all_missing": true,
+    "adl_rows": 2163,
+    "adl_dates": [
+      "2025-10-10"
+    ]
+  },
+  "ETH": {
+    "asset": "ETH",
+    "liquidation_columns": [
+      "ts",
+      "coin",
+      "side",
+      "direction",
+      "px",
+      "sz",
+      "is_liquidation",
+      "notional"
+    ],
+    "identifier_columns_retained": [],
+    "side_by_direction": {
+      "buy": {
+        "Close Short": 65677,
+        "Liquidated Cross Short": 3,
+        "Liquidated Isolated Short": 1
+      },
+      "sell": {
+        "Close Long": 210417,
+        "Liquidated Cross Long": 2374,
+        "Liquidated Isolated Long": 983
+      }
+    },
+    "is_liquidation_values": {
+      "True": 279455
+    },
+    "sell_rows": 213774,
+    "sell_rows_all_close_long": true,
+    "sell_rows_with_matching_buy_row_same_ts_px_sz": 0,
+    "rows": 279455,
+    "unique_timestamps": 21058,
+    "rows_sharing_a_timestamp": 273730,
+    "exact_duplicate_rows_remaining": 0,
+    "index_min": 0,
+    "index_max": 303954,
+    "index_is_time_ordered": true,
+    "implied_pre_dedup_rows_at_least": 303955,
+    "rows_dropped_by_legacy_dedup_at_least": 24500,
+    "dropped_share_at_least": 0.08060403678176045,
+    "dropped_rows_on_sell_timestamps_share": 0.6875510204081633,
+    "dropped_rows_side_ambiguous_share": 0.040285714285714286,
+    "sell_notional_retained": 5850564007.435979,
+    "sell_notional_reinstated_adjacent_assumption": 279173469.32379997,
+    "dropped_by_month": {
+      "2025-08": 7060,
+      "2025-09": 3596,
+      "2025-10": 5600,
+      "2025-11": 5031,
+      "2025-12": 3213
+    },
+    "assumed_coverage": [
+      "2025-08-01T00:00:00+00:00",
+      "2026-01-01T00:00:00+00:00"
+    ],
+    "dates_with_rows": 153,
+    "calendar_dates_in_coverage": 153,
+    "share_5min_bins_without_any_liquidation": 0.8986247276688453,
+    "zero_runs_ge_6h": 101,
+    "zero_runs_ge_12h": 22,
+    "longest_zero_run_h": 25.166666666666668,
+    "oi_rows": 264909,
+    "oi_first": "2025-07-01T00:00:00+00:00",
+    "oi_last": "2025-12-31T23:59:00+00:00",
+    "oi_grid_points": 264960,
+    "oi_grid_points_missing": 116,
+    "oi_offgrid_rows": 65,
+    "oi_max_gap_min": 21.783333333333335,
+    "oi_columns": [
+      "ts",
+      "oi"
+    ],
+    "klines_rows": 52987,
+    "klines_first": "2025-07-01T00:00:00+00:00",
+    "klines_last": "2025-12-31T23:55:00+00:00",
+    "klines_grid_points": 52992,
+    "klines_grid_points_missing": 5,
+    "klines_offgrid_rows": 0,
+    "klines_max_gap_min": 20.0,
+    "klines_columns": [
+      "ts",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume"
+    ],
+    "funding_rows": 264909,
+    "funding_first": "2025-07-01T00:00:00+00:00",
+    "funding_last": "2025-12-31T23:59:00+00:00",
+    "funding_grid_points": 264960,
+    "funding_grid_points_missing": 116,
+    "funding_offgrid_rows": 65,
+    "funding_max_gap_min": 21.783333333333335,
+    "funding_columns": [
+      "ts",
+      "funding"
+    ],
+    "klines_volume_all_missing": true,
+    "adl_rows": 1373,
+    "adl_dates": [
+      "2025-10-10"
+    ]
+  }
+}

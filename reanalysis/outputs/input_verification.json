@@ -1,0 +1,52 @@
+{
+  "data/hyperliquid_BTC_adl.parquet": {
+    "expected": "a074a94f19e87dd1d7a9d88d324bbdb273b65567cf9210323b035f7730f7c598",
+    "actual": "a074a94f19e87dd1d7a9d88d324bbdb273b65567cf9210323b035f7730f7c598",
+    "match": true
+  },
+  "data/hyperliquid_BTC_funding.parquet": {
+    "expected": "c40e5900a9aff7c892327de40a0e033807562094b3243ba152350fe9b16c6e9b",
+    "actual": "c40e5900a9aff7c892327de40a0e033807562094b3243ba152350fe9b16c6e9b",
+    "match": true
+  },
+  "data/hyperliquid_BTC_klines.parquet": {
+    "expected": "1cf6bd9823f449c5eba3d6540ed362c97ab86aeaaa2043a01b3a4aae8a8cebc0",
+    "actual": "1cf6bd9823f449c5eba3d6540ed362c97ab86aeaaa2043a01b3a4aae8a8cebc0",
+    "match": true
+  },
+  "data/hyperliquid_BTC_liquidations.parquet": {
+    "expected": "90de84e8ad379710a605c658dae1b1c699521e870515c9a37dce9cbddec1eee4",
+    "actual": "90de84e8ad379710a605c658dae1b1c699521e870515c9a37dce9cbddec1eee4",
+    "match": true
+  },
+  "data/hyperliquid_BTC_oi.parquet": {
+    "expected": "2af5f0ab953adb6c7837726344d83a423527b0fe356894476cc676ef07b0097e",
+    "actual": "2af5f0ab953adb6c7837726344d83a423527b0fe356894476cc676ef07b0097e",
+    "match": true
+  },
+  "data/hyperliquid_ETH_adl.parquet": {
+    "expected": "91a8a1e4131231cbb67b2e24e091eabf10253aa12fcaf7843be763d5a239f34f",
+    "actual": "91a8a1e4131231cbb67b2e24e091eabf10253aa12fcaf7843be763d5a239f34f",
+    "match": true
+  },
+  "data/hyperliquid_ETH_funding.parquet": {
+    "expected": "48b6042277019d71de7fd5330667ffb84c0b2e9d55482fe003f38a9b62dcd349",
+    "actual": "48b6042277019d71de7fd5330667ffb84c0b2e9d55482fe003f38a9b62dcd349",
+    "match": true
+  },
+  "data/hyperliquid_ETH_klines.parquet": {
+    "expected": "ed53a7076bc98fa78cfdc81fef19d6da9ddf5bce023b16d53dbc0f1b32597458",
+    "actual": "ed53a7076bc98fa78cfdc81fef19d6da9ddf5bce023b16d53dbc0f1b32597458",
+    "match": true
+  },
+  "data/hyperliquid_ETH_liquidations.parquet": {
+    "expected": "908d9a982ae3517d3b3be9a94827be8ad15c0da3689c6a49df98ef6a7824905b",
+    "actual": "908d9a982ae3517d3b3be9a94827be8ad15c0da3689c6a49df98ef6a7824905b",
+    "match": true
+  },
+  "data/hyperliquid_ETH_oi.parquet": {
+    "expected": "f0bd66cb90e714ee04de9cb27d5f405a42df405728d5721021e081a2aac640a2",
+    "actual": "f0bd66cb90e714ee04de9cb27d5f405a42df405728d5721021e081a2aac640a2",
+    "match": true
+  }
+}

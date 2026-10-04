@@ -1,0 +1,14 @@
+{
+  "BTC_stage0_equals_legacy_detect_events": true,
+  "ETH_stage0_equals_legacy_detect_events": true,
+  "BTC": {
+    "alt_impl_triggers": 358,
+    "events_py_triggers": 358,
+    "symmetric_difference": 0
+  },
+  "ETH": {
+    "alt_impl_triggers": 288,
+    "events_py_triggers": 288,
+    "symmetric_difference": 0
+  }
+}

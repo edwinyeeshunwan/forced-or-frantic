@@ -1,0 +1,12 @@
+{
+  "purpose": "Rerun of the full pipeline on a second machine with different library versions, comparing numerical digests (values rounded to 9 decimals).",
+  "environment_A": {"where": "cloud workspace", "python": "3.11.15", "numpy": "2.4.4", "pandas": "3.0.2", "parquet_engine": "fallback reader (libsnappy via ctypes)"},
+  "environment_B": {"where": "second machine (Linux VM), run in parts", "python": "3.10.12", "numpy": "2.2.6", "pandas": "2.3.3", "parquet_engine": "fallback reader (libsnappy via ctypes)"},
+  "identical_digests": ["results/sensitivity_grid.csv", "results/clustering_sensitivity.csv", "results/descriptive_primary.csv",
+                        "corrected/events_primary.csv", "corrected/membership_legacy_vs_corrected.csv", "corrected/event_count_waterfall.csv",
+                        "legacy/legacy_rebuilt_99.csv", "legacy/legacy_rebuilt_95.csv", "results/primary_effects.json",
+                        "results/legacy_definitions_clustered_effects.json"],
+  "differences": {"audit/audit.json": "ETH sell_notional_retained 5850564007.435979 (A) vs 5850564007.435982 (B), and the derived reinstated-notional figure: floating-point summation order between pandas versions (difference about 3e-6 USD). No other field differs."},
+  "tests": {"A": "26 passed, 0 failed", "B": "26 passed, 0 failed"},
+  "legacy_benchmarks_reproduced": {"A": true, "B": true}
+}

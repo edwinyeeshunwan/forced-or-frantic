@@ -1,0 +1,113 @@
+{
+  "all_benchmarks_reproduced": true,
+  "stored_table_column_equality": {
+    "t0": true,
+    "p0": true,
+    "liq_notional": true,
+    "doi_event": true,
+    "klass": true,
+    "peak_disloc": true,
+    "ttr_min": true,
+    "censored": true,
+    "perm_6h": true,
+    "perm_24h": true,
+    "transitory_share": true,
+    "session": true,
+    "venue": true,
+    "symbol": true
+  },
+  "group_summaries": [
+    {
+      "trigger": 0.99,
+      "class": "churn",
+      "n": 28,
+      "n_ok": true,
+      "median_peak_ok": true,
+      "median_reversion_ok": true,
+      "median_minutes_ok": true,
+      "censored_ok": true
+    },
+    {
+      "trigger": 0.99,
+      "class": "deleverage",
+      "n": 38,
+      "n_ok": true,
+      "median_peak_ok": true,
+      "median_reversion_ok": true,
+      "median_minutes_ok": true,
+      "censored_ok": true
+    },
+    {
+      "trigger": 0.99,
+      "class": "middle",
+      "n": 96,
+      "n_ok": true,
+      "median_peak_ok": true,
+      "median_reversion_ok": true,
+      "median_minutes_ok": true,
+      "censored_ok": true
+    },
+    {
+      "trigger": 0.95,
+      "class": "churn",
+      "n": 125,
+      "n_ok": true,
+      "median_peak_ok": true,
+      "median_reversion_ok": true,
+      "median_minutes_ok": true,
+      "censored_ok": true
+    },
+    {
+      "trigger": 0.95,
+      "class": "deleverage",
+      "n": 63,
+      "n_ok": true,
+      "median_peak_ok": true,
+      "median_reversion_ok": true,
+      "median_minutes_ok": true,
+      "censored_ok": true
+    },
+    {
+      "trigger": 0.95,
+      "class": "middle",
+      "n": 237,
+      "n_ok": true,
+      "median_peak_ok": true,
+      "median_reversion_ok": true,
+      "median_minutes_ok": true,
+      "censored_ok": true
+    }
+  ],
+  "ols_coefficients": {
+    "0.99": {
+      "coef": 0.005132523540803675,
+      "n": 66,
+      "benchmark": 0.005132523540803671,
+      "abs_diff": 4.336808689942018e-18,
+      "n_ok": true
+    },
+    "0.95": {
+      "coef": 0.0054538045568769565,
+      "n": 188,
+      "benchmark": 0.005453804556876954,
+      "abs_diff": 2.6020852139652106e-18,
+      "n_ok": true
+    }
+  },
+  "counts": {
+    "0.99": {
+      "total": 162,
+      "middle": 96,
+      "deleverage": 38,
+      "churn": 28,
+      "matches_benchmark": true
+    },
+    "0.95": {
+      "total": 425,
+      "middle": 237,
+      "churn": 125,
+      "deleverage": 63,
+      "matches_benchmark": true
+    }
+  }
+}

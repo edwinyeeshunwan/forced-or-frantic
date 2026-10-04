@@ -1,0 +1,4 @@
+data/hyperliquid_*.parquet
+__pycache__/
+*.pyc
+.DS_Store
