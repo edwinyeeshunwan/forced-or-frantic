@@ -4,7 +4,7 @@
 
 📄 **[Read the paper (PDF)](Open_Interest_and_Price_Recovery_v3.pdf)**
 
-> **Correction notice.** This repository previously hosted *"Forced or Frantic?"* (v1, July 2026). Its event construction contained look-ahead and measurement errors, and its headline results (162 events, a ~0.55pp size-controlled effect, p ≈ 10⁻⁴) are **superseded**. The study has been re-estimated under a correction protocol frozen before any corrected outcome was computed. See **[CORRECTIONS.md](CORRECTIONS.md)** for what changed and why. The original version is kept unchanged in [`legacy/`](legacy/) and in the `v1-superseded` release.
+> **Correction notice.** This repository previously hosted *"Forced or Frantic?"* (v1, July 2026). Its event construction contained look-ahead and measurement errors, and its headline results (162 events, a ~0.55pp size-controlled effect, p ≈ 10⁻⁴) are **superseded**. The study has been re-estimated under a correction protocol frozen before any corrected outcome was computed. See **[CORRECTIONS.md](CORRECTIONS.md)** for what changed and why. The original version is kept unchanged in [`legacy/`](legacy/) and at the [original v1 commit](https://github.com/edwinyeeshunwan/forced-or-frantic/tree/fe8e96ac2d22bc0fd40fd032f3075f2d47ec4f04).
 
 ## Question
 

@@ -1,6 +1,6 @@
 # Corrections to v1 ("Forced or Frantic?", July 2026)
 
-Version 1 of this study was posted here in July 2026. A later audit of the code found errors in how events were constructed and measured. Version 3 (September 2026) re-estimates the study after fixing them. The original paper and documents are kept unchanged in [`legacy/`](legacy/) and in the `v1-superseded` release.
+Version 1 of this study was posted here in July 2026. A later audit of the code found errors in how events were constructed and measured. Version 3 (September 2026) re-estimates the study after fixing them. The original paper and documents are kept unchanged in [`legacy/`](legacy/) and at the [original v1 commit](https://github.com/edwinyeeshunwan/forced-or-frantic/tree/fe8e96ac2d22bc0fd40fd032f3075f2d47ec4f04).
 
 ## What was wrong
 
